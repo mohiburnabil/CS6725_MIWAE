@@ -1,0 +1,1 @@
+{"variant": "KDD_NN_1", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 1, "seconds": 50.484, "nrms": 0.01294599235840091, "ae": 0.7802865151043289, "categorical_missing": 19266}

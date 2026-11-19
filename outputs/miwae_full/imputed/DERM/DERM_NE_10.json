@@ -1,0 +1,1 @@
+{"variant": "DERM_NE_10", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 32, "seconds": 0.218, "nrms": 0.20233254153022884, "ae": null, "categorical_missing": 0}

@@ -1,0 +1,1 @@
+{"variant": "MUSH_C_20", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 3, "seconds": 0.681, "nrms": null, "ae": 0.6465590142149559, "categorical_missing": 24833}

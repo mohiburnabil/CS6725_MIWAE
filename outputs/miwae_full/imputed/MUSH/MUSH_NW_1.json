@@ -1,0 +1,1 @@
+{"variant": "MUSH_NW_1", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 3, "seconds": 0.844, "nrms": null, "ae": 0.5900826446280992, "categorical_missing": 1210}

@@ -1,0 +1,1 @@
+{"variant": "CREDIT_AL_10", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 22, "seconds": 0.227, "nrms": 0.10681418154251782, "ae": 0.6305418719211823, "categorical_missing": 609}

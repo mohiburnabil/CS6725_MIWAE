@@ -1,0 +1,1 @@
+{"variant": "Bupa_AG_10", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 32, "seconds": 0.094, "nrms": 0.10098342262372914, "ae": null, "categorical_missing": 0}

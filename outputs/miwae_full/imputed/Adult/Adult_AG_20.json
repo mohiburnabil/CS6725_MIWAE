@@ -1,0 +1,1 @@
+{"variant": "Adult_AG_20", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 1, "seconds": 2.507, "nrms": 4.503597781885529e-05, "ae": 0.6437986677924759, "categorical_missing": 85272}

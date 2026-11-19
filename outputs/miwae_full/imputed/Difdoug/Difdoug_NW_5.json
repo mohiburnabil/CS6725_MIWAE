@@ -1,0 +1,1 @@
+{"variant": "Difdoug_NW_5", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 32, "seconds": 0.125, "nrms": 0.16444153663749042, "ae": null, "categorical_missing": 0}

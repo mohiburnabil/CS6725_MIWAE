@@ -1,0 +1,1 @@
+{"variant": "HOV_AN_10", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 64, "seconds": 0.25, "nrms": null, "ae": 0.7694444444444445, "categorical_missing": 360}

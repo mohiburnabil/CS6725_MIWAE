@@ -1,0 +1,1 @@
+{"variant": "KDD_AW_10", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 1, "seconds": 47.63, "nrms": 0.0002014451436734629, "ae": 0.6104105825304548, "categorical_missing": 219834}

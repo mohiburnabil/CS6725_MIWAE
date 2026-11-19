@@ -1,0 +1,1 @@
+{"variant": "Abalone_NG_10", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 4, "seconds": 0.147, "nrms": 0.04249632746725905, "ae": 0.48717948717948717, "categorical_missing": 312}

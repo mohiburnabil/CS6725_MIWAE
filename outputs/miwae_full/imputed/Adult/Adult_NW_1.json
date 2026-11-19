@@ -1,0 +1,1 @@
+{"variant": "Adult_NW_1", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 1, "seconds": 1.743, "nrms": 0.0061877245169989804, "ae": 0.5078787878787879, "categorical_missing": 3300}

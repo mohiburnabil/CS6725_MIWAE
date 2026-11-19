@@ -1,0 +1,1 @@
+{"variant": "Adult_NG_1", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 1, "seconds": 2.162, "nrms": 0.06060695698736272, "ae": 0.4804301075268817, "categorical_missing": 4650}

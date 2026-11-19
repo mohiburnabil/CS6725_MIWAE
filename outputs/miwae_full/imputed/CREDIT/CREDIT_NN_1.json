@@ -1,0 +1,1 @@
+{"variant": "CREDIT_NN_1", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 22, "seconds": 0.21, "nrms": 0.1318514561267955, "ae": 0.6190476190476191, "categorical_missing": 42}

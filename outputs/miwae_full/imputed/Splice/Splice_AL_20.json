@@ -1,0 +1,1 @@
+{"variant": "Splice_AL_20", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 5, "seconds": 2.064, "nrms": null, "ae": 0.30383806519453205, "categorical_missing": 38040}

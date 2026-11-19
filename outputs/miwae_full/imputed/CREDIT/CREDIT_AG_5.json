@@ -1,0 +1,1 @@
+{"variant": "CREDIT_AG_5", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 22, "seconds": 0.219, "nrms": 0.07627846773810742, "ae": 0.6401515151515151, "categorical_missing": 264}

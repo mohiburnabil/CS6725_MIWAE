@@ -1,0 +1,1 @@
+{"variant": "Adult_NN_20", "settings": {"seed": 1234, "hidden": 32, "latent": 4, "train_samples": 4, "impute_samples": 8, "batch": 256, "min_updates": 64, "min_epochs": 1, "learning_rate": 0.002}, "epochs": 1, "seconds": 1.98, "nrms": 0.30805458331263313, "ae": 0.4984934763379036, "categorical_missing": 72352}
