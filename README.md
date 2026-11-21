@@ -6,7 +6,7 @@ The implementation follows the MIWAE tutorial described in the notebook and the 
 
 ## Course benchmark
 
-Run [MIWAE_Numerical.ipynb](MIWAE_Numerical.ipynb) for the 16 numerical datasets and [MIWAE_Categorical.ipynb](MIWAE_Categorical.ipynb) for the five categorical and five mixed datasets. The notebooks share [miwae_course.py](miwae_course.py) and run on CPU. Install the dependencies using the setup instructions below. The original ProbAI notebook is a separate Iris tutorial.
+Run [MIWAE_Numerical.ipynb](MIWAE_Numerical.ipynb) for the 16 numerical datasets and [MIWAE_Categorical.ipynb](MIWAE_Categorical.ipynb) for the five categorical and five mixed datasets. Each notebook contains its CPU training and reporting code. The **Forward pass** cell defines the model, the **MIWAE loss** section defines the observed-data objective, and the **Training loop** cell calls that loss for each minibatch. Both notebooks import plotting functions from [miwae_figures.py](miwae_figures.py). Install the dependencies using the setup instructions below. The original ProbAI notebook is a separate Iris tutorial.
 
 | Course input | Role |
 | --- | --- |
@@ -22,14 +22,7 @@ The 44 combinations are the file codes C, AE, AG, AL, AN, AW, NE, NG, NL, NN and
 
 In either notebook, leave `DATASET = None` to process its group in sequence, or choose one name from the printed list. For example, `DATASET = "Adult"` and `VARIANT = "C_10"` run one mixed-data experiment. Leaving `VARIANT = None` runs all 44 masks for the selected dataset. Set `GROUP = "all"` to access all 26 datasets from either notebook.
 
-By default the notebooks reuse completed variants with matching settings. To train afresh, change `OUTPUT_DIR` to a new directory. Interruptions preserve completed variants. Both notebooks rebuild the workbook from the results in the same output folder. To run the whole benchmark from Python:
-
-```python
-from miwae_course import run, export_table
-
-run()                 # one fresh model per incomplete workbook
-export_table()        # fills the course template in outputs/miwae
-```
+By default the notebooks reuse completed variants with matching settings. To train afresh, change `OUTPUT_DIR` to a new directory. Interruptions preserve completed variants. Both notebooks rebuild the workbook from the results in the same output folder. To run the whole benchmark, set `GROUP = "all"`, `DATASET = None`, and `VARIANT = None` in either notebook and run all cells from the project directory.
 
 Each run saves a completed table as Parquet and a JSON record of its scores, settings, epoch count and elapsed time under `outputs/miwae/imputed/<dataset>/`. Read a table with `pandas.read_parquet`. Columns x1, x2, … follow the input workbook order. The [full benchmark workbook](outputs/miwae_full/Table-NRMS-AE.xlsx) retains the template’s dataset names.
 
